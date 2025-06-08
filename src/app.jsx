@@ -307,7 +307,19 @@ export function App() {
             </div>
           </div>
           {chartData ? (
-            <Bar data={chartData} options={options} />
+            <Bar
+              data={chartData}
+              options={{
+                ...options,
+                plugins: {
+                  legend: {
+                    labels: {
+                      color: "#fff", // Set legend text color to white
+                    },
+                  },
+                },
+              }}
+            />
           ) : (
             <Bar
               data={{
@@ -325,7 +337,11 @@ export function App() {
               options={{
                 ...options,
                 plugins: {
-                  legend: { display: false },
+                  legend: {
+                    labels: {
+                      color: "#fff", // Set legend text color to white
+                    },
+                  },
                   title: { display: true, text: "Grafik Placeholder" },
                 },
               }}

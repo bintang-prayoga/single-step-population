@@ -123,6 +123,20 @@ export function App() {
     scales: {
       y: {
         beginAtZero: true,
+        grid: {
+          color: "#5e5e5e",
+        },
+        ticks: {
+          color: "#fff",
+        },
+      },
+      x: {
+        grid: {
+          color: "#5e5e5e",
+        },
+        ticks: {
+          color: "#fff",
+        },
       },
     },
   };

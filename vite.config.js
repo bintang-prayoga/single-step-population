@@ -6,8 +6,8 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   plugins: [preact(), tailwindcss()],
   server: {
-    port: 3000,
-    strictPort: true,
-    open: true,
+    allowedHosts: true,
+    cors: true,
+    port: 83,
   },
 });

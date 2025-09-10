@@ -24,4 +24,4 @@
 - 🔩 Universal Plugin Interface
 - 🔑 Fully Typed APIs
 
-Vite (French word for "quick", pronounced [`/vit/`](https://cdn.jsdelivr.net/gh/vitejs/vite@main/docs/public/vite.mp3), like "veet") is a new breed of frontend build tooling that significantly improves the frontend development experience.
+Awikwok Awikwok

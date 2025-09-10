@@ -163,7 +163,7 @@ export function App() {
               htmlFor="P0_initial"
               className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
             >
-              Populasi Awal (P0_initial)
+              Populasi Awal
             </label>
             <input
               type="number"
